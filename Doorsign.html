@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Doorsign</title>
+<style type="text/css">
+@font-face {
+  font-family: 'KlavikaBold';
+  src: url('ufonts.com_klavika-bold-opentype.otf');
+}
+body
+{
+  height: 15cm;
+  width: 15cm;
+  border: 0.1mm solid #e0e0e0;
+  border-radius: 1cm;
+}
+.doorsign {
+  position: absolute;
+  top: 6.5cm;
+  height: 7cm;
+  left: 1.5cm;
+  width: 12cm;
+  display: flex;
+  align-items: center;
+  padding: 0cm 1cm;
+  box-sizing: border-box;
+}
+.doorsign .text {
+  padding: 0;
+  width: 100%;
+}
+.title {
+  font-size: 12pt;
+  font-family: KlavikaBold;
+  margin-top: 6pt;
+}
+.name {
+  font-size: 22pt;
+  font-family: KlavikaBold;
+}
+.name .firstname {
+}
+.name .lastname {
+  text-transform: uppercase;
+}
+.phone {
+  font-size: 12pt;
+  font-family: KlavikaBold;
+  color: black;
+  float: right;
+}
+</style>
+</head>
+<body>
+
+<div class="doorsign">
+  <div class="text">
+    <div class="entry">
+      <div class="phone">10001</div>
+      <div class="title">ARat. B.Sc. B.Sc.&nbsp;</div>
+      <div class="name"><span class="lastname">Mustermann</span> <span class="firstname">Max</span></div>
+    </div>
+    <div class="entry">
+      <div class="phone">10002</div>
+      <div class="title">Mag.rer.soc.oec.&nbsp;</div>
+      <div class="name"><span class="lastname">Doe</span> <span class="firstname">Jane</span></div>
+    </div>
+  </div>
+</div>
+</body></html>
